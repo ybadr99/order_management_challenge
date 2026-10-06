@@ -1,4 +1,4 @@
-# Moontech Backend Task
+# Order Management Backend Challenge
 
 Laravel REST API backend with order management and admin capabilities.
 
@@ -11,8 +11,8 @@ Laravel REST API backend with order management and admin capabilities.
 
 ```bash
 # 1. Clone & enter the project
-git clone <repo-url> moontech-backend-task
-cd moontech-backend-task
+git clone <repo-url> Order Management-backend-task
+cd order-management-challenge
 
 # 2. Copy environment file
 cp .env.example .env
@@ -37,10 +37,10 @@ docker compose exec app php artisan migrate --seed
 
 | Service        | Container        | Description                        |
 |----------------|------------------|------------------------------------|
-| **Nginx**      | `moontech-nginx` | Web server (port 8080)             |
-| **PHP-FPM**    | `moontech-app`   | PHP application server             |
-| **MySQL**      | `moontech-mysql` | Database (host port 3307)          |
-| **Queue**      | `moontech-queue` | Queue worker for async jobs        |
+| **Nginx**      | `Order Management-nginx` | Web server (port 8080)             |
+| **PHP-FPM**    | `Order Management-app`   | PHP application server             |
+| **MySQL**      | `Order Management-mysql` | Database (host port 3307)          |
+| **Queue**      | `Order Management-queue` | Queue worker for async jobs        |
 
 ## Useful Commands
 
@@ -75,11 +75,11 @@ docker compose build
 
 ## API Documentation (Postman)
 
-A complete Postman v2.1 collection (`MoonTech-API.postman_collection.json`) is included in the project root with all 19 endpoints organized into 6 folders.
+A complete Postman v2.1 collection (`Order Management-API.postman_collection.json`) is included in the project root with all 19 endpoints organized into 6 folders.
 
 ### Importing
 
-Open Postman → **File → Import** (or drag & drop `MoonTech-API.postman_collection.json`).
+Open Postman → **File → Import** (or drag & drop `Order Management-API.postman_collection.json`).
 
 ### Getting Started
 
